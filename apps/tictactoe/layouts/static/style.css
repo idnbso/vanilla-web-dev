@@ -1,0 +1,28 @@
+body {
+    background-color: #333;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    width: 960px;
+    background-color: #eee;
+    padding: 15px;
+}
+
+.row {
+    display: inline-block;
+    clear: both;
+    margin: auto;
+    background-color: #888;
+}
+
+.col-3 {
+    float: left;
+    height: 250px;
+    width: 250px;
+    background-color: #ccc;
+    margin: 8px;
+    font-size: 150px;
+}
