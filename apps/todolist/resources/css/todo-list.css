@@ -1,0 +1,94 @@
+ul.todo-list {
+    width: 100%;
+    float: left;
+}
+
+ul.todo-list li {
+    position: relative;
+    float: left;
+    min-height: 50px;
+    width: 100%;
+
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+    line-height: 22px;
+
+
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(44, 62, 80, 0.20);
+    margin: 0 0 10px 0;
+    padding: 14px 114px 14px 14px;
+}
+
+ul.todo-list li:last-of-type {
+    margin: 0;
+}
+
+ul.todo-list li .buttons {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    top: 0;
+    right: 0;
+}
+
+ul.todo-list li .buttons button {
+    position: relative;
+    width: 60px;
+    height: 50px;
+    float: left;
+    background: none;
+    border: 0;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+ul.todo-list li .buttons button:last-of-type:before {
+    content: '';
+    width: 1px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background: #d0d3d4;
+}
+
+ul.todo-list li .buttons .complete i {
+    color: #25b99a;
+}
+
+ul.todo-list li .buttons .complete i:hover {
+    color: #51c7ae;
+}
+
+ul.todo-list#todo-list-completed li .buttons .complete i {
+    color: #c0cecb;
+}
+
+ul.todo-list#todo-list-completed:not(:empty) {
+    position: relative;
+    padding: 60px 0 0 0;
+}
+
+ul.todo-list#todo-list-completed:not(:empty):before {
+    content: '';
+    width: 150px;
+    height: 1px;
+    background: #d3e1de;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin: 0 0 0 -75px;
+}
+
+ul.todo-list li .buttons .remove i {
+    color: #c0cecb;
+}
+
+ul.todo-list li .buttons .remove i:hover {
+    color: #d96a6e;
+}

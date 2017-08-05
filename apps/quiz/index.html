@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <title>Quiz</title>
+</head>
+<body>
+
+<div id="container">
+    <div class="grid">
+        <div id="quiz">
+            <h1>Quiz</h1>
+
+            <hr class="border-top-line"/>
+
+            <p id="question"></p>
+
+            <div class="buttons">
+                <button class="answer-button" id="button-0">
+                    <span class="choice" id="choice-0"></span>
+                </button>
+                <button class="answer-button" id="button-1">
+                    <span class="choice" id="choice-1"></span>
+                </button>
+                <button class="answer-button" id="button-2">
+                    <span class="choice" id="choice-2"></span>
+                </button>
+                <button class="answer-button" id="button-3">
+                    <span class="choice" id="choice-3"></span>
+                </button>
+            </div>
+
+            <hr class="border-bottom-line"/>
+
+            <footer>
+                <p id="progress">Question <span id="current-question"></span> of <span
+                        id="total-questions"></span></p>
+            </footer>
+        </div>
+    </div>
+</div>
+
+<script src="js/lib/Question.js" type="text/javascript"></script>
+<script src="js/lib/Quiz.js" type="text/javascript"></script>
+<script src="js/lib/App.js" type="text/javascript"></script>
+<script src="js/Main.js" type="text/javascript"></script>
+</body>
+</html>

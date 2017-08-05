@@ -1,0 +1,21 @@
+Stopwatch App Logic
+
+Click on Start Button:
+    Show the Stop and Lap buttons
+    Stopwatch Mode = ON
+    Start counter
+
+Click on Stop Button
+    Show Resume and Reset buttons
+    Stop counter
+
+Click on Resume Button
+    Show Stop and Lap buttons
+    Start counter
+
+Click on Reset button
+    Reload the page
+
+Click on Lap Button
+    If counter is ON
+        Add lap details to laps box

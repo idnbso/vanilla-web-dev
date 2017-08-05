@@ -1,0 +1,56 @@
+.price-box {
+    background: #fff;
+    color: #555;
+    list-style-type: none;
+    border: 1px solid;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.price-box .header {
+    background-color: #111;
+    color: #fff;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.price-box:hover:not(.best) .header {
+    background-color: #4caf50;
+}
+
+.price-box:hover, .price-box.best {
+    box-shadow: 0 10px 25px 1px #58cf5c;
+}
+
+.price-box .header.header-green {
+    background-color: #4caf50;
+}
+
+.price-box li {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+.price-box .emphasis-background {
+    background-color: #f4f4f4;
+    font-size: 20px;
+}
+
+.price-box .button {
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.price-box .button:hover {
+    background-color: #fff;
+    border: 1px solid  #58cf5c;
+    color: #58cf5c;
+}

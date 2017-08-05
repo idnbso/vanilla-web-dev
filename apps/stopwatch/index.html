@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stopwatch App</title>
+
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Title -->
+    <div id="header">
+        <h1 class="outline-text">Stopwatch</h1>
+    </div>
+
+    <!-- Lap Time -->
+    <div class="outline-text" id="lap-time">
+        <span id="lap-time-minutes">00</span>:<span id="lap-time-seconds">00</span>:<span
+            id="lap-time-centiseconds">00</span>
+    </div>
+
+    <!-- Time -->
+    <div class="outline-text" id="current-time">
+        <span id="current-time-minutes">00</span>:<span id="current-time-seconds">00</span>:<span
+            id="current-time-centiseconds">00</span>
+    </div>
+
+    <!-- Controls -->
+    <div id="controls-container" class="row">
+        <div id="left-controls" class="col col-xs-6 col-xs-offset-4">
+            <button id="start-button" class="control-button">Start</button>
+            <button id="stop-button" class="control-button">Stop</button>
+            <button id="resume-button" class="control-button">Resume</button>
+        </div>
+        <div id="right-controls" class="col col-xs-6 col-xs-offset-4">
+            <button id="lap-button" class="control-button">Lap</button>
+            <button id="reset-button" class="control-button">Reset</button>
+        </div>
+    </div>
+
+    <!-- Laps -->
+    <div class="row">
+        <div id="laps-details"></div>
+    </div>
+</div>
+
+<script src="js/stopwatch.js" type="text/javascript"></script>
+<script src="js/app.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>

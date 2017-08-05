@@ -1,0 +1,31 @@
+.grid {
+    position: absolute;
+    width: 700px;
+    height: 600px;
+
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
+
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #ccc;
+    box-shadow: 10px 15px 5px #ccc;
+}
+
+.grid h1 {
+    font-family: sans-serif;
+    background-color: #666;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    padding: 2px 0;
+    border-radius: 50px;
+}

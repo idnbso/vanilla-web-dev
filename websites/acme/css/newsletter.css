@@ -1,0 +1,44 @@
+#newsletter {
+    padding: 15px;
+    color: #fff;
+    background: #35424a;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 17px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 38px;
+    width: 250px;
+}
+
+@media (max-width: 768px) {
+    #newsletter {
+        padding: 35px 0;
+    }
+
+    #newsletter h1,
+    #newsletter form {
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #newsletter button, .quote button {
+        display: block;
+        width: 100%;
+    }
+
+    #newsletter form input[type="email"], .quote input, .quote textarea {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,31 @@
+#boxes {
+    margin: 80px auto;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 150px;
+}
+
+@media (max-width: 768px) {
+    #boxes {
+        margin-top: 20px;
+    }
+
+    #boxes .box {
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    #boxes .box img {
+        width: 90px;
+    }
+}

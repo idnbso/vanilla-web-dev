@@ -1,0 +1,27 @@
+ul#services li {
+    list-style: none;
+    padding: 20px;
+    border: #ccc solid 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+.quote label {
+    margin-top: 10px;
+}
+
+@media(max-width: 768px) {
+    ul#services li {
+        margin-top: 20px;
+    }
+
+    aside#sidebar {
+        margin-top: 70px;
+    }
+}

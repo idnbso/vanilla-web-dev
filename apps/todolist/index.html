@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- External Style Libraries-->
+    <link rel="stylesheet" href="resources/css/lib/reset.min.css">
+    <link rel="stylesheet" href="resources/css/lib/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="resources/css/style.css">
+
+    <title>Todo List App</title>
+</head>
+<body>
+
+<header>
+    <input id="todo-item-text" type="text" placeholder="Enter an activity...">
+    <button id="add-todo-item"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></button>
+</header>
+
+<div class="container">
+    <!-- Uncompleted tasks -->
+    <ul class="todo-list" id="todo-list"></ul>
+
+    <!-- Completed tasks -->
+    <ul class="todo-list" id="todo-list-completed"></ul>
+</div>
+
+
+<script src="resources/js/ToDoList.js" type="text/javascript"></script>
+<script src="resources/js/App.js" type="text/javascript"></script>
+<script src="resources/js/Main.js" type="text/javascript"></script>
+</body>
+</html>
